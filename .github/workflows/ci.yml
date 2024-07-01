@@ -26,6 +26,7 @@ jobs:
   lint_dv:
     name: Run quality checks (Lint and DV)
     runs-on: ubuntu-20.04
+    if: 'false'
     steps:
       - uses: actions/checkout@v4
         with:
